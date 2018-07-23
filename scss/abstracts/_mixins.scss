@@ -1,3 +1,28 @@
+@mixin background-image($string) {
+  background-image: $string;
+}
+
+@mixin transform($string) {
+  transform: $string;
+}
+
+@mixin transform-origin($string) {
+  transform-origin: $string;
+}
+
+@mixin transition($transition...) {
+  transition: $transition;
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
 // center vertically and/or horizontally an absolute positioned element
 
 @mixin center($xy:xy) {
@@ -19,3 +44,5 @@
     @include transform(translateY(-50%));
   }
 }
+
+

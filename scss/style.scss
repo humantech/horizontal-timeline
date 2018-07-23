@@ -239,8 +239,8 @@ Main Components
 		@include transform(translateX(-100%));
 		padding: 0 5%;
 		opacity: 0;
-		@include animation-duration(.4s);
-		@include animation-timing-function(ease-in-out);
+		animation-duration: .4s;
+		animation-timing-function: ease-in-out;
 
 		&.selected {
 			/* visible event content */
@@ -251,15 +251,15 @@ Main Components
 		}
 
 		&.enter-right, &.leave-right {
-			@include animation-name(cd-enter-right);
+			animation-name: cd-enter-right;
 		}
 
 		&.enter-left,  &.leave-left {
-			@include animation-name(cd-enter-left);
+			animation-name: cd-enter-left;
 		}
 		
 		&.leave-right, &.leave-left {
-			@include animation-direction(reverse);
+			animation-direction: reverse;
 		}
 	}
 	
