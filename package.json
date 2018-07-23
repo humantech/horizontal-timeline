@@ -1,6 +1,6 @@
 {
   "name": "horizontal-timeline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy to customize, horizontal timeline powered by CSS and jQuery.",
   "main": "js/main.js",
   "scripts": {

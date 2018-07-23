@@ -1,11 +1,11 @@
 // colors
 
-$color-1: #383838; // Mine Shaft
-$color-2: #7b9d6f; // Highland
-$color-3: #ffffff; // White
-$color-4: #f8f8f8; // Alabaster
+$color-1: #383838 !default; // Mine Shaft
+$color-2: #7b9d6f !default; // Highland
+$color-3: #ffffff !default; // White
+$color-4: #f8f8f8 !default; // Alabaster
 
 // fonts 
 
-$primary-font: 'Fira Sans', sans-serif;
-$secondary-font: 'Playfair Display', serif;
+$primary-font: 'Fira Sans', sans-serif !default;
+$secondary-font: 'Playfair Display', serif !default;
